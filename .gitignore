@@ -1,0 +1,15 @@
+# secrets
+.env
+.env.*
+!.env.example
+# real data never leaves the machine
+data/raw/
+*.db
+!data/sample/*.db
+*.sqlite
+*.csv
+*.xlsx
+# script outputs of local runs
+results/runs/
+__pycache__/
+.venv/

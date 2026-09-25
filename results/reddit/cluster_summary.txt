@@ -1,0 +1,43 @@
+📊 RÉSUMÉ QUALITATIF DES CLUSTERS WEB3 REDDIT
+==================================================
+
+🔹 Cluster 1 : Curieux finance
+   - Type dominant : Curieux finance
+   - Taille : 122 personnes (40.13%)
+   - Répartition des sentiments :
+     • Neutre : 50.8%
+     • Négatif : 49.2%
+   - Mots clés fréquents : wallet, frais, binance, ledger, pense, aussi, reste, mieux, transfert, payer
+
+🔹 Cluster 2 : Développeurs
+   - Type dominant : Développeurs
+   - Taille : 17 personnes (5.59%)
+   - Répartition des sentiments :
+     • Positif : 76.5%
+     • Neutre : 17.6%
+     • Négatif : 5.9%
+   - Mots clés fréquents : valeur, wallet, sécurité, aussi, risque, dapprendre, phantom, permet, pourrait, problème
+
+🔹 Cluster 3 : Curieux finance
+   - Type dominant : Curieux finance
+   - Taille : 117 personnes (38.49%)
+   - Répartition des sentiments :
+     • Positif : 100.0%
+   - Mots clés fréquents : wallet, aussi, ledger, frais, autre, binance, phrase, monde, paiement, chaque
+
+🔹 Cluster 4 : Sceptiques
+   - Type dominant : Sceptiques
+   - Taille : 21 personnes (6.91%)
+   - Répartition des sentiments :
+     • Négatif : 61.9%
+     • Positif : 33.3%
+     • Neutre : 4.8%
+   - Mots clés fréquents : alors, copier, valeur, wallet, monde, jamais, envoyer, coller, guerre, moment
+
+🔹 Cluster 5 : Curieux finance
+   - Type dominant : Curieux finance
+   - Taille : 27 personnes (8.88%)
+   - Répartition des sentiments :
+     • Positif : 88.9%
+     • Neutre : 11.1%
+   - Mots clés fréquents : frais, ledger, wallet, binance, kraken, bonne, coinbase, alors, aussi, compte

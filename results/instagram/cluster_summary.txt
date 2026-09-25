@@ -1,0 +1,43 @@
+📊 RÉSUMÉ QUALITATIF DES CLUSTERS WEB3
+==================================================
+
+🔹 Cluster 1 : Idéalistes
+   - Type dominant : Idéalistes
+   - Taille : 168 personnes (49.27%)
+   - Répartition des sentiments :
+     • Positif : 100.0%
+   - Mots clés fréquents : acheter, surtout, commencer, mieux, vendre, bonne, année, vidéo, aussi, monde
+
+🔹 Cluster 2 : Idéalistes
+   - Type dominant : Idéalistes
+   - Taille : 127 personnes (37.24%)
+   - Répartition des sentiments :
+     • Négatif : 62.2%
+     • Neutre : 37.8%
+   - Mots clés fréquents : marché, après, personne, payer, aussi, train, grosse, autant, trump, petit
+
+🔹 Cluster 3 : Développeurs
+   - Type dominant : Développeurs
+   - Taille : 5 personnes (1.47%)
+   - Répartition des sentiments :
+     • Positif : 60.0%
+     • Neutre : 40.0%
+   - Mots clés fréquents : associé, prépare, lautre, brésil, compte, trouverez, lactu, temps, réels, éducatifsmindset
+
+🔹 Cluster 4 : Sceptiques
+   - Type dominant : Sceptiques
+   - Taille : 8 personnes (2.35%)
+   - Répartition des sentiments :
+     • Positif : 50.0%
+     • Négatif : 37.5%
+     • Neutre : 12.5%
+   - Mots clés fréquents : bonnes, nouvelles, aucuns, impacts, doutes, reste, vendrais, jamais, perte, welcome
+
+🔹 Cluster 5 : Curieux finance
+   - Type dominant : Curieux finance
+   - Taille : 33 personnes (9.68%)
+   - Répartition des sentiments :
+     • Positif : 78.8%
+     • Négatif : 12.1%
+     • Neutre : 9.1%
+   - Mots clés fréquents : binance, question, because, sécurité, envoyer, alpha, inject, raise, swear, fringe

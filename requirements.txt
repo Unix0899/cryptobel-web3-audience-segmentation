@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+nltk
+emoji
+wordcloud
+tqdm
+transformers
+torch
+praw        # only for src/collect_reddit.py
