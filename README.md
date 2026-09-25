@@ -14,7 +14,7 @@ Case study (context, method, dashboards, my role): **https://harry-mulembwe.verc
 ## What the pipeline does
 
 ```text
-Reddit API (praw)  ─┐                 cleaning (emoji, URLs, @mentions,      CamemBERT            TF-IDF + features
+Reddit API (praw)  ─┐                 cleaning (emoji, URLs, @mentions,      DistilCamemBERT      TF-IDF + features
                     ├─► SQLite ─────► stop words, crypto vocabulary)  ─────► sentiment  ───────► K-means (k = 2-10,
 Instagram (Apify)  ─┘                                                        (distilcamembert)    elbow + silhouette)
                                                                                                         │
@@ -26,7 +26,7 @@ Instagram (Apify)  ─┘                                                       
 |---|---|
 | Reddit collection (r/CryptoFr, r/BitcoinFrance, keyword and score filters, 1-year window) | [src/collect_reddit.py](src/collect_reddit.py) |
 | Instagram: import of the Apify CSV exports into SQLite | [src/import_instagram_apify.py](src/import_instagram_apify.py) |
-| Cleaning, sentiment (CamemBERT), TF-IDF, K-means, profiles, charts - Reddit | [src/cluster_reddit.py](src/cluster_reddit.py) |
+| Cleaning, sentiment (DistilCamemBERT), TF-IDF, K-means, profiles, charts - Reddit | [src/cluster_reddit.py](src/cluster_reddit.py) |
 | Same pipeline - Instagram | [src/cluster_instagram.py](src/cluster_instagram.py) |
 
 The scripts are the ones used in 2025. Only three things were changed for publication: credentials read from
@@ -44,6 +44,11 @@ environment variables, local paths replaced by parameters, and output written un
   (wallets, fees, Binance, Ledger), small developer and sceptic groups.
 - Instagram: [cluster summary](results/instagram/cluster_summary.txt). Dominated by idealist / market-talk
   profiles, with small developer and sceptic groups.
+- From clusters to profiles: each platform was clustered separately (10 clusters in total). The clusters were then
+  interpreted together; clusters with the same discourse were grouped and very small ones (5 to 33 messages on
+  Instagram) were not kept as separate profiles. This gave the **six strategic profiles** of the thesis: two on
+  Instagram (enthusiastic and disillusioned idealists) and four on Reddit (cautious and enthusiastic financial
+  explorers, technical developers, critical sceptics).
 - Charts: elbow method, silhouette scores and detail, PCA projection, average features by profile and keyword
   word clouds in [results/reddit/](results/reddit/) and [results/instagram/](results/instagram/).
 
